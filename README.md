@@ -4,8 +4,8 @@ post installation scripts for fedora.
 # Running
 
 ```bash
-/path/to/fedora-scripts1:~$ chmod u+x run.sh
-/path/to/fedora-scripts1:~$ ./run.sh
+/path/to/fedora-scripts1$ chmod u+x run.sh
+/path/to/fedora-scripts1$ ./run.sh
 ```
 
 # Notes
