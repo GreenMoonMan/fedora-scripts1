@@ -37,7 +37,7 @@ dnf install -y \
 
 # gnome shell extensions
 GSE="gnome-shell-extension"
-dnf install --skip-unavailable -y \
+dnf install -y \
 	gnome-tweaks gnome-extensions-app \
 	papirus-icon-theme \
 	"$GSE"-user-theme \
@@ -49,7 +49,7 @@ dnf install --skip-unavailable -y \
 
 
 # misc applications
-dnf install --skip-unavailable -y \
+dnf install -y \
 	texlive \
 	piper \
 	blender \
